@@ -23,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
           dividerThickness: 5,
           dataRowHeight: 80,
           showBottomBorder: true,
+          border: TableBorder.all(color: Colors.black),
           headingTextStyle: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.white
